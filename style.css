@@ -1,0 +1,143 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    background-image: linear-gradient(lightskyblue, lightblue);
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+    display: flex;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.navbar li a {
+    text-decoration: none;
+    padding: 15px 10px;
+}
+
+
+.dropdown {
+    float: right;
+    overflow: hidden;
+}
+
+.dropdown .dropdownButton {
+    border:none;
+    outline:none;
+    background-color: inherit;
+    font-family: inherit;
+    font-size: 16px;
+}
+
+.dropdownCont {
+    display: none;
+    position: absolute;
+    background-color: lightblue;
+    min-width: 100px;
+    z-index: 1;
+}
+
+.dropdownContent a {
+    float: none;
+    padding: 10px 15px;
+    display:block;
+    text-align: left;
+}
+
+.dropdownContent a:hover{
+    background-color:rgb(0, 140, 255);
+    color: lightblue
+}
+
+.dropdown:hover .dropdownContent {
+    display: block;
+}
+
+.container {
+    text-align: left;
+    justify-content: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.image-container {
+    width: 33%;
+}
+
+.image-container img {
+    width: 150px;
+}
+
+
+.button {
+    text-decoration: none;
+    padding: 15px 20ox;
+    background-color: lightblue;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+
+.button {
+    text-decoration: none;
+    padding: 15px 20px;
+    background-color:lightblue;
+    border-radius: 5px;
+    display: inline-block;
+
+}
+
+
+.column {
+    float: left;
+    width: 31%;
+    padding:15px;
+
+}
+
+.row:after {
+    content: "";
+    display:table;
+    clear: both;
+}
+
+@media screen and (max-width: 640px) {
+    .colum {
+        width: 100%;
+    }
+}
+
+
+.footer {
+     text-align: center;
+     background-color: lightskyblue;
+     padding: 20px 50px;
+     position:absolute;
+     bottom: 0;
+     width: 100%;
+}
+nkl                                                                                                                                                              o
+
+/* 
+key : value pair
+color: lightblue
+font-size: 15px
+ */
+
+/* () [] {} */
